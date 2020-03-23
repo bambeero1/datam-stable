@@ -19,10 +19,10 @@ MYSQL_HOST = 'datam.mysql.database.azure.com'
 MYSQL_PORT = 3306
 MYSQL_USER = ''
 MYSQL_PASSWORD = ''
-MYSQL_DB = 'datam'
-MYSQL_TABLE = 'haraj'
+MYSQL_DB = ''
+MYSQL_TABLE = ''
 MYSQL_UPSERT = False
-MYSQL_RETRIES = 5
+MYSQL_RETRIES = 2
 MYSQL_CLOSE_ON_ERROR = True
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -32,7 +32,7 @@ MYSQL_CLOSE_ON_ERROR = True
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 25
+CONCURRENT_REQUESTS = 16
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -46,7 +46,7 @@ CONCURRENT_REQUESTS = 25
 #COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
-#TELNETCONSOLE_ENABLED = False
+TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
 #DEFAULT_REQUEST_HEADERS = {
