@@ -52,7 +52,7 @@ python-debian==0.1.32
 python-scrapyd-api==2.1.2
 pytz==2018.9
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.4
 queuelib==1.5.0
 redis==3.2.1
 requests==2.18.4
