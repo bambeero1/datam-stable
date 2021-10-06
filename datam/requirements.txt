@@ -59,7 +59,7 @@ requests==2.18.4
 requests-unixsocket==0.1.5
 Scrapy==1.6.0
 scrapy-redis==0.6.8
-scrapy-splash==0.7.2
+scrapy-splash==0.8.0
 scrapyd==1.2.0
 scrapyd-client==1.1.0
 SecretStorage==2.3.1
